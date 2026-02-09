@@ -10,7 +10,6 @@ if __name__ == "__main__":
     calculator = Calculator()
     
     print("Subtraction: ", calculator.subtract(10, 5))  
-    calc = Calculator()
-    print("Addition: ", calc.add(5, 3))
-    print("Subtraction: ", calc.subtract(10, 5))  
-    print("Multiplication: ", calc.add(10,5))
+    print("Addition: ", calculator.add(5, 3))
+    print("Subtraction: ", calculator.subtract(10, 5))  
+    print("Multiplication: ", calculator.multiply(10,5))
