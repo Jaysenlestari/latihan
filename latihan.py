@@ -4,5 +4,6 @@ class Calculator:
 
 
 if __name__ == "__main__":
-    calc = Calculator()
-    print("Subtraction: ", calc.subtract(10, 5))  
+    calculator = Calculator()
+    
+    print("Subtraction: ", calculator.subtract(10, 5))  
